@@ -1,0 +1,21 @@
+#top-inner, #front-inner, #front #top-bar {
+	background: none
+}
+.search-submit {
+	background: url('../images/loop_ie.gif?1') no-repeat center center;
+}
+.wrapper, #content-wrap, #nav ul, #footer {
+	width: 960px
+}
+#content-block {
+	width: 570px
+}
+#sidebar {
+	width: 290px
+}
+#top-bar h2 {
+	width: 580px
+}
+#footer .left {
+ width: 760px 
+}
