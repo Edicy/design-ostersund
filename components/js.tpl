@@ -3,7 +3,7 @@
     <script type="text/javascript">
         var edys_site_search_options = {
             texts: { noresults: "{{ "search_noresults"|lc }}" },
-            default_stylesheet_enabled: false,
+            default_stylesheet_enabled: false
 }
 </script>
 {% endif %}

@@ -700,6 +700,3 @@ display: none
 }
 textarea, input {outline: none;}
 html {  -webkit-text-size-adjust: none;	}
-.placeholder { color: #aaa3a4 !important }
-::-webkit-input-placeholder { color: #aaa3a4 !important }
-:-moz-placeholder { color: #aaa3a4 !important }
