@@ -500,6 +500,13 @@ color: #276100
 .form_error, .form_field_error, .blog-errors {
 color: #ea0e0e
 }
+.form_error, .form_notice {
+    font-size: 16px;
+    margin: 13px 0
+}
+.form_field_with_errors input, .form_field_with_errors textarea {
+    border: 1px solid #ea0e0e
+}
 .form_field_size_small {
 width: 25%
 }
