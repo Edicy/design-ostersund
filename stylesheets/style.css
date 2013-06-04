@@ -427,6 +427,45 @@ padding-left: 6px;
 color: #86a9c5;
 font-size: 12px
 }
+
+/* article tags */
+.article-tags { margin-top: 20px; font-size: 14px; min-height: 1em; }
+.edy-tag-input { outline: none; }
+.article-tag-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url('../images/tag.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.svg .article-tag-icon { background: url('../images/tag.svg') no-repeat center center; }
+.tagged-list-header {
+    padding: 0;
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.header-tag-icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url('../images/header-tag.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-top: -1px;
+    margin-right: 21px;
+}
+.svg .header-tag-icon { background: url('../images/header-tag.svg') no-repeat center center; }
+.tagged-list-header  a {border: none; text-decoration: none;}
+.tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
+.article-tags .edy-taglist { margin-left: 25px; }
+
+
 /* comment form */
 .form_area {
 margin-bottom: 17px
@@ -434,6 +473,7 @@ margin-bottom: 17px
 #comment-form, #comments {
 border-top: 1px solid #dbe7f1;
 padding-top: 20px
+line-height: 1.3em;
 }
 .form_field label {
 display: block;
