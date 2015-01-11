@@ -1,1 +1,258 @@
-{"layouts":[{"component":false,"title":"Common page","layout_name":"page_default","content_type":"page","file":"layouts/common_page.tpl"},{"component":false,"title":"Blog & News","layout_name":"blog_front","content_type":"blog","file":"layouts/blog___news.tpl"},{"component":false,"title":"Blog article","layout_name":"blog_article","content_type":"blog_article","file":"layouts/blog_article.tpl"},{"component":true,"title":"langmenu","layout_name":"","content_type":"component","file":"components/langmenu.tpl"},{"component":true,"title":"Mainmenu","layout_name":"","content_type":"component","file":"components/mainmenu.tpl"},{"component":true,"title":"SiteHeader","layout_name":"","content_type":"component","file":"components/siteheader.tpl"},{"component":false,"title":"Front page","layout_name":"page_front","content_type":"page","file":"layouts/front_page.tpl"},{"component":true,"title":"JS","layout_name":"","content_type":"component","file":"components/js.tpl"},{"component":true,"title":"News","layout_name":"","content_type":"component","file":"components/news.tpl"},{"component":true,"title":"Submenu","layout_name":"","content_type":"component","file":"components/submenu.tpl"},{"component":true,"title":"Search","layout_name":"","content_type":"component","file":"components/search.tpl"},{"component":true,"title":"Footer","layout_name":"","content_type":"component","file":"components/footer.tpl"},{"component":true,"title":"Menu","layout_name":"Menu","content_type":"component","file":"components/menu.tpl"}],"name":"\u00d6stersund","author":"Paavel Liik","assets":[{"kind":"images","content_type":"image/gif","filename":"sidebar.gif","file":"images/sidebar.gif"},{"kind":"images","content_type":"image/png","filename":"shadow2.png","file":"images/shadow2.png"},{"kind":"images","content_type":"image/gif","filename":"active.gif","file":"images/active.gif"},{"kind":"images","content_type":"image/png","filename":"separator2.png","file":"images/separator2.png"},{"kind":"images","content_type":"image/png","filename":"shadow.png","file":"images/shadow.png"},{"kind":"images","content_type":"image/png","filename":"separator.png","file":"images/separator.png"},{"kind":"images","content_type":"image/png","filename":"loop.png","file":"images/loop.png"},{"kind":"stylesheets","content_type":"text/css","filename":"style_ie.css","file":"stylesheets/style_ie.css"},{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"stylesheets","content_type":"text/css","filename":"reset.css","file":"stylesheets/reset.css"},{"kind":"assets","content_type":"font/eot","filename":"grandesign_neue_serif-webfont.eot","file":"assets/grandesign_neue_serif-webfont.eot"},{"kind":"images","content_type":"unknown/unknown","filename":"grandesign_neue_serif-webfont.svg","file":"images/grandesign_neue_serif-webfont.svg"},{"kind":"stylesheets","content_type":"text/css","filename":"fonts.css","file":"stylesheets/fonts.css"},{"kind":"images","content_type":"image/png","filename":"bg01.png","file":"images/bg01.png"},{"kind":"images","content_type":"image/gif","filename":"loop_ie.gif","file":"images/loop_ie.gif"},{"kind":"images","content_type":"image/gif","filename":"corner.gif","file":"images/corner.gif"},{"kind":"images","content_type":"image/png","filename":"header.png","file":"images/header.png"},{"kind":"images","content_type":"image/png","filename":"bg02.png","file":"images/bg02.png"},{"kind":"images","content_type":"image/png","filename":"bg04.png","file":"images/bg04.png"},{"kind":"images","content_type":"image/png","filename":"nav.png","file":"images/nav.png"},{"kind":"images","content_type":"image/gif","filename":"submenu.gif","file":"images/submenu.gif"},{"kind":"images","content_type":"image/png","filename":"header-tag.png","file":"images/header-tag.png"},{"kind":"images","content_type":"image/svg+xml","filename":"header-tag.svg","file":"images/header-tag.svg"},{"kind":"images","content_type":"image/svg+xml","filename":"tag.svg","file":"images/tag.svg"},{"kind":"images","content_type":"image/png","filename":"tag.png","file":"images/tag.png"},{"kind":"javascripts","content_type":"text/javascript","filename":"modernizr.js","file":"javascripts/modernizr.js"}],"preview_medium":"http://static.edicy.com/designs/previews/ostersund_medium.jpg","preview_small":"http://static.edicy.com/designs/previews/ostersund_small.jpg","description":"\u00d6stersund"}
+{
+  "description": "Östersund",
+  "name": "Östersund",
+  "preview_medium": "http://static.edicy.com/designs/previews/ostersund_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/ostersund_small.jpg",
+  "author": "Paavel Liik",
+  "layouts": [
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/footer.tpl",
+      "layout_name": "footer",
+      "title": "footer"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/menu.tpl",
+      "layout_name": "menu",
+      "title": "menu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/news.tpl",
+      "layout_name": "news",
+      "title": "news"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/grandesign_neue_serif-webfont.eot",
+      "kind": "assets",
+      "filename": "grandesign_neue_serif-webfont.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/grandesign_neue_serif-webfont.svg",
+      "kind": "assets",
+      "filename": "grandesign_neue_serif-webfont.svg"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/header-tag.svg",
+      "kind": "assets",
+      "filename": "header-tag.svg"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/tag.svg",
+      "kind": "assets",
+      "filename": "tag.svg"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/active.gif",
+      "kind": "images",
+      "filename": "active.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/bg01.png",
+      "kind": "images",
+      "filename": "bg01.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/bg02.png",
+      "kind": "images",
+      "filename": "bg02.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/bg04.png",
+      "kind": "images",
+      "filename": "bg04.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/corner.gif",
+      "kind": "images",
+      "filename": "corner.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/header.png",
+      "kind": "images",
+      "filename": "header.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/loop.png",
+      "kind": "images",
+      "filename": "loop.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/loop_ie.gif",
+      "kind": "images",
+      "filename": "loop_ie.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/nav.png",
+      "kind": "images",
+      "filename": "nav.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/separator.png",
+      "kind": "images",
+      "filename": "separator.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/separator2.png",
+      "kind": "images",
+      "filename": "separator2.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/shadow.png",
+      "kind": "images",
+      "filename": "shadow.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/shadow2.png",
+      "kind": "images",
+      "filename": "shadow2.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/sidebar.gif",
+      "kind": "images",
+      "filename": "sidebar.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/submenu.gif",
+      "kind": "images",
+      "filename": "submenu.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/tag.png",
+      "kind": "images",
+      "filename": "tag.png"
+    },
+    {
+      "content_type": "application/javascript",
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/fonts.css",
+      "kind": "stylesheets",
+      "filename": "fonts.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/reset.css",
+      "kind": "stylesheets",
+      "filename": "reset.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style_ie.css",
+      "kind": "stylesheets",
+      "filename": "style_ie.css"
+    }
+  ]
+}
