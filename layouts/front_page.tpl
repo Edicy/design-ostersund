@@ -23,7 +23,7 @@
         <div id="top-bar" class="clear">
           <h2>{% content name="slogan" %}</h2>
           {% include "Langmenu" %} </div>
-        <div id="content-block">{% content %}</div>
+        <div id="content-block" data-search-indexing-allowed="true">{% content %}</div>
         <!-- //content block -->
         <div id="sidebar"> {% include "News" %} </div>
         <!-- //sidebar -->
