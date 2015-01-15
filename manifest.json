@@ -99,7 +99,7 @@
   ],
   "assets": [
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/grandesign_neue_serif-webfont.eot",
       "kind": "assets",
       "filename": "grandesign_neue_serif-webfont.eot"
