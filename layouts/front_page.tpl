@@ -8,7 +8,7 @@
   <div id="header">
     <div id="header-inner" class="clear">
       <div class="wrapper">
-        <h1 id="logo">{% editable site.header %}</h1>
+        <h1 id="logo" class="content-hyphenate">{% editable site.header %}</h1>
         {% include "Search" %} </div>
       <!-- //wrapper -->
     </div>
@@ -23,7 +23,7 @@
         <div id="top-bar" class="clear">
           <h2>{% content name="slogan" %}</h2>
           {% include "Langmenu" %} </div>
-        <div id="content-block" data-search-indexing-allowed="true">{% content %}</div>
+        <div id="content-block" class="content-hyphenate" data-search-indexing-allowed="true">{% content %}</div>
         <!-- //content block -->
         <div id="sidebar"> {% include "News" %} </div>
         <!-- //sidebar -->

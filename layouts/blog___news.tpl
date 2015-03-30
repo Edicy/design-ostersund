@@ -40,7 +40,7 @@
         {% endif %}
     
     
-      <ul id="blog-list">
+      <ul id="blog-list" class="content-hyphenate">
         {% addbutton class="add-article" %}
         
         {% for article in articles %}

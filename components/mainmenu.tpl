@@ -1,4 +1,4 @@
-<div id="nav" class="clear">
+<div id="nav" class="clear content-hyphenate">
 <ul>
 	{% unless site.root_item.hidden? %}<li{% if site.root_item.selected? %} class="active"{% endif %}>
   <a href="{{site.root_item.url}}">{{site.root_item.title}}</a>

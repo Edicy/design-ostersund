@@ -26,7 +26,7 @@
   </div>
   {% include "Menu" %}
   <div id="content-wrap" class="clear">
-    <div class="content" data-search-indexing-allowed="true"> {% content %} </div>
+    <div class="content content-hyphenate" data-search-indexing-allowed="true"> {% content %} </div>
     <div id="sidebar">
       <div class="inner"> {% include "Submenu" %}
         
